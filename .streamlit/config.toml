@@ -1,0 +1,13 @@
+[server]
+# Disable file watcher to prevent constant refreshing
+fileWatcherType = "none"
+
+# Optional: Disable automatic browser opening
+headless = false
+
+# Optional: Set port
+port = 8501
+
+[browser]
+# Optional: Prevent automatic browser launch
+gatherUsageStats = false
